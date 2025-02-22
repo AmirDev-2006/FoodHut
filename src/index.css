@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "sofia regular";
+  src: url("./assets//fonts/SofiaSansCondensed-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "sofia medium";
+  src: url("./assets/fonts/SofiaSansCondensed-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "sofia bold";
+  src: url("./assets/fonts/SofiaSansCondensed-SemiBold.ttf") format("truetype");
+}
+.font-sofia-regular{
+  font-family:"sofia regular";
+}
+.font-sofia-bold{
+  font-family:"sofia bold";
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen and (max-width:600px) {
+  .res{
+    display: none;
+  }
+}
+@media screen and (max-width:1000px) {
+  .res2{
+    display: none;
+  }
+}
+@media screen and (max-width:780px) {
+  .res3{
+    display: none;
+  }
+@media screen and (max-width:768px) {
+  .res4{
+    display: none;
+  }
+}
+}
+
+
+
