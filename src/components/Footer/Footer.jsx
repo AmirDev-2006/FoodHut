@@ -2,7 +2,7 @@ import Socialicon from '../../assets/images/Socialicon.png'
 export default function Footer(){
     return(
         <>
-        <div className="flex lg:h-[589px] flex-col items-center lg:gap-x-[94px] pt-[92px] px-6 lg:flex-row">
+        <div className="flex lg:h-[589px] flex-col  lg:gap-x-[94px] pt-[92px] px-6 lg:flex-row">
             <div className="flex text-left flex-col justify-center gap-y-[10px]">
                 <h1 className='font-sofia-bold text-[32px] text-[#F54748]'>Foodhut</h1>
                 <p>
@@ -12,7 +12,7 @@ export default function Footer(){
                     <img src={Socialicon} alt="" />
                 </div>
             </div>
-            <div className='mt-[30px] flex  gap-x-[80px]'>
+            <div className='mt-[30px] flex   gap-x-[80px]'>
                 <div>
                     <ul>
                         <li className='text-[#F54748] text-2xl font-sofia-bold text-[24px] tracking-wider font-sofia-regular'>About Us</li>
