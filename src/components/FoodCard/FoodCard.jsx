@@ -2,8 +2,8 @@ import KebabFood from '../../assets/images/KebabFood.png'
 export default function FoodCard() {
   return (
     <>
-      <div className="flex mt-5 flex-col relative rounded-[20px] gradiant2 bg-gradient-to-t from-[#ed9797] to-white  items-center w-[310px] h-[368px]">
-        <div className="w-[248px] flex items-center justify-center absolute bottom-52 h-[248px] border-4 bg-gradient-to-b from-[#f5bc8b] to-[white] rounded-full">
+      <div className="flex mt-5 flex-col relative rounded-[20px] gradiant2 bg-gradient-to-t from-[rgba(237,151,151,0.4)] to-white  items-center w-[310px] h-[368px]">
+        <div className="w-[248px] flex items-center justify-center absolute bottom-52 h-[248px] bg-gradient-to-b from-[rgba(245,188,139,0.6)] to-[white] rounded-full">
           <img
             className="w-[198px] h-[198px] border-white border-[10px] rounded-full"
             src={KebabFood}
