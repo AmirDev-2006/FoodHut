@@ -19,7 +19,7 @@ export default function FoodCard() {
             industry
           </p>
         </div>
-        <button className="absolute -bottom-4 w-[131px] h-[45px] bg-[#f54748] rounded-[100px] text-white">
+        <button className="absolute -bottom-4 w-[131px] h-[45px] bg-[#f54748] transition-colors hover:text-[#f54748] hover:bg-white rounded-[100px] text-white">
           Order Now
         </button>
       </div>
