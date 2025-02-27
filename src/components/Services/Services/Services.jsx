@@ -10,7 +10,7 @@ export default function Services() {
       <div className="flex mb-[120px] flex-col md:flex-row md:justify-between md:items-center m-auto w-full justify-center">
         <img className="md:hidden" src={Cheff} alt="" />
         <img className="res4 md:w-[500px]" src={Cheff} alt="" />
-        <div className="  ">
+        <div className=" flex flex-col">
           <h1 className="tracking-wider px-6 font-sofia-bold text-[48px]">
             We are <span className="text-[#f54748]">more</span> than{" "}
             <span className="text-[#fdc55e]">multiple</span> <br />

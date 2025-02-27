@@ -44,6 +44,14 @@
   }
 }
 }
+.gradiant{
+  background-color:
+  linear-gradient(#fbb272, #f5bc8b, white)
+   ;
+}
+/* .gradiant2{
+  background: linear-gradient(179.69deg, rgba(255, 255, 255, 0) -31.53%, #F54748 303.75%);
+} */
 
 
 
